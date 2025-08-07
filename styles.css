@@ -8,11 +8,8 @@ html {
   scroll-behavior: smooth;
 }
 
-#main-doc {
-}
-
 code {
-  background-color: #2b2a33;
+  background-color: #3a3a3a;
   padding: 1.2em;
   border: 1px solid rgba(250, 250, 250, 0.2);
   display: block;
@@ -53,7 +50,7 @@ a {
 }
 
 a:hover {
-  color: chartreuse;
+  color: crimson;
 }
 
 #navbar ul li {
