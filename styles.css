@@ -1,0 +1,38 @@
+code {
+  background-color: #f5f5f5;
+  padding: 0.5em;
+  display: block;
+  white-space: pre-wrap;
+  font-family: monospace;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 200px;
+  top: 0px;
+  left: 0px;
+  width: 250px;
+  height: 100%;
+  border-right: solid;
+  border-right-color: currentcolor;
+  border-color: rgba(0, 22, 22, 0.4);
+}
+
+#main-doc {
+  position: absolute;
+  left: 280px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  #navbar {
+    width: 150px;
+  }
+}
